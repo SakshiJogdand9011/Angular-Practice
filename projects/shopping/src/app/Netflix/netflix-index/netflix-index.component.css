@@ -1,0 +1,9 @@
+.background{
+    background-image: xy;
+    height: 600px;
+    background-size: cover;
+}
+.shade{
+    background-color: rgba(red, green, blue, alpha);
+    height: 600px;
+}
