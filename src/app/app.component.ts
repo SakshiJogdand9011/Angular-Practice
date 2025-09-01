@@ -5,7 +5,9 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
+  //styles:['h1{background-color:white}']
+  //styleUrls:['./profile.btn.css','./profile.component.css']
 })
 export class AppComponent {
 
@@ -27,9 +29,38 @@ export class AppComponent {
 
 
 //event 
-handleEvent(event:any){
-  console.log("function called",event);
-  
-}
+//handleEvent(event:Event){
+  //console.log("function called",event.type);
+  //console.log("function value",(event.target as HTMLInputElement).value);
+//}
 
+// get and set 
+
+// name=""
+// displayName="";
+// email="";
+// getName(event:Event){
+//   this.name=(event.target as HTMLInputElement).value
+// }
+// showName(){
+//   this.displayName=this.name;
+// }
+// setName(){
+//   this.name="sau"
+// }
+// getEmail(val:string){
+//   console.log(val);
+//   this.email=val;
+// }
+// setEmail(){
+//   this.email='default@123';
+// }
+
+
+// if condition hide show button 
+
+display=true
+hide(){
+  this.display=false
 }
+ }

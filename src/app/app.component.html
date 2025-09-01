@@ -8,5 +8,33 @@
     </div>
 </div>  -->
 
-<h1>Event in angular</h1>
-<button (click)="handleEvent($event)"></button>
+<!-- <h1>Event in angular</h1>
+<button class="btn" name="login" (click)="handleEvent($event)"></button>
+<br><br>
+<div (mouseenter)="handleEvent($event)"
+style="background-color: green; width: 100px; height: 100px;">
+</div>
+
+<div (mouseleave)="handleEvent($event)"
+style="background-color: blue; width: 100px; height: 100px;">
+</div>
+<br><br>
+<input type="text" (input)="handleEvent($event)" name="use"> -->
+
+
+<!-- <h1>get and set input field value</h1>
+<h1>user name is : {{displayName}}</h1>
+<input type="text" value={{name}} (input)="getName($event)" placeholder="enter use name"><br><br>
+<button (click)="showName()">click</button>
+<button (click)="setName()">set</button>
+<hr>
+<h1>email: {{email}}</h1>
+<input type="text" value={{email}} placeholder="enter email" #emailField>
+<button (click)="getEmail(emailField.value)">get email</button>
+<button (click)="setEmail()">set email</button> -->
+
+
+<button (click)="hide()">Hide show</button>
+@if(display){
+  <div style="width: 50px; height: 50px; background-color: green;"></div>
+}
