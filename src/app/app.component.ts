@@ -59,8 +59,13 @@ export class AppComponent {
 
 // if condition hide show button 
 
-display=true
-hide(){
-  this.display=false
-}
+// display=true
+// hide(){
+//   this.display=false //true
+// }
+// toggle(){
+//   this.display=!this.display
+// }
+
+// for loop 
  }
